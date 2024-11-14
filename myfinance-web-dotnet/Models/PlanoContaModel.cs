@@ -1,6 +1,6 @@
-﻿namespace myfinance_web_dotnet.Domain;
+﻿namespace myfinance_web_dotnet.Models;
 
-public class PlanoConta
+public class PlanoContaModel
 {
     public int? Id { get; set; }
     public string Nome { get; set; }
