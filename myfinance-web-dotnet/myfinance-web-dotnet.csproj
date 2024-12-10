@@ -16,4 +16,8 @@
     <_ContentIncludedByDefault Remove="Views\PlanoConta\Cadastro.cshtml" />
     <_ContentIncludedByDefault Remove="Views\PlanoConta\Index.cshtml" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Docs\" />
+  </ItemGroup>
 </Project>

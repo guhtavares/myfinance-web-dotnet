@@ -11,5 +11,6 @@ public interface IPlanoContaServices
     void Excluir(int id);
     
     PlanoConta RetornarRegistro(int id);
-    
+
+    List<PlanoConta> ListarTodos();
 }

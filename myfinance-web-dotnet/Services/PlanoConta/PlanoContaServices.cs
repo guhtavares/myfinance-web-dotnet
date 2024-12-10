@@ -35,11 +35,27 @@ public class PlanoContaServices : IPlanoContaServices
 
     public void Excluir(int id)
     {
-        throw new NotImplementedException();
+        var planoconta = _myFinanceDbContext.PlanoConta.FirstOrDefault(t => t.Id == id);
+        
+        if (planoconta != null)
+        {
+            _myFinanceDbContext.PlanoConta.Remove(planoconta);
+            
+            _myFinanceDbContext.SaveChanges();
+        }
+        else
+        {
+            throw new Exception("Plano conta não encontrada.");
+        }
     }
 
     public PlanoConta RetornarRegistro(int id)
     {
         return new PlanoConta();
+    }
+    
+    public List<PlanoConta> ListarTodos()
+    {
+        return _myFinanceDbContext.PlanoConta.ToList();
     }
 }

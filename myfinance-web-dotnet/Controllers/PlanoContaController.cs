@@ -10,7 +10,6 @@ namespace myfinance_web_dotnet.Controllers;
 public class PlanoContaController : Controller
 {
     private readonly IPlanoContaServices _planoContaServices;
-
     
     public PlanoContaController(IPlanoContaServices planoContaServices)
     {
@@ -28,7 +27,7 @@ public class PlanoContaController : Controller
     [HttpGet]
     [Route("Cadastro")]
     public IActionResult Cadastro(PlanoContaModel? model)
-    {
+    {   
         if (model != null && ModelState.IsValid)
         {
             var planoConta = new PlanoConta
@@ -41,5 +40,21 @@ public class PlanoContaController : Controller
             _planoContaServices.Salvar(planoConta);
         }
         return View();
+    }
+    
+    [HttpDelete]
+    public IActionResult Excluir(int id)
+    {
+        try
+        {
+            _planoContaServices.Excluir(id);  // Exclui o plano de conta com base no Id
+            TempData["SuccessMessage"] = "Plano conta excluída com sucesso!";
+        }
+        catch (Exception)
+        {
+            TempData["ErrorMessage"] = "Erro ao excluir a Plano Conta.";
+        }
+
+        return RedirectToAction("Index");
     }
 }
