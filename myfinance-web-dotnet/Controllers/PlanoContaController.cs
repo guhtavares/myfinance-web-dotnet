@@ -35,7 +35,12 @@ public class PlanoContaController : Controller
         {
              var registro = _planoContaServices.RetornarRegistro((int)id);
 
-             var planoContaModel = new PlanoContaModel(){};
+             var planoContaModel = new PlanoContaModel()
+             {
+                 Id = registro.Id,
+                 Nome = registro.Nome,
+                 Tipo = registro.Tipo
+             };
                  
              return View(planoContaModel);
          }
