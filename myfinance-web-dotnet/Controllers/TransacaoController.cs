@@ -38,30 +38,6 @@ public class TransacaoController : Controller
         return View();
     }
     
-    // [HttpPost]
-    // [HttpGet]
-    // [Route("Transacao/Cadastro")]
-    // public IActionResult Cadastro(Transacao? transacao)
-    // {
-    //     if (ModelState.IsValid)
-    //     {
-    //         try
-    //         {
-    //             _transacaoService.Salvar(transacao); 
-    //             return RedirectToAction("Index");
-    //         }
-    //         catch (Exception ex)
-    //         {
-    //             ModelState.AddModelError("", $"Erro ao salvar a transação: {ex.Message}");
-    //             return View(transacao); 
-    //         }
-    //     }
-    //     else
-    //     {
-    //         return View(transacao);
-    //     }
-    // }
-    
     [HttpPost]
     [HttpGet]
     [Route("Transacao/Cadastro")]

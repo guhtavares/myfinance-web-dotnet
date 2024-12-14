@@ -10,23 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a8a7628-8267-4449-b191-f6834fd46e31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/TransacaoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Models/TransacaoModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/Transacao/ITransacaoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/Transacao/TransacaoService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Transacao/Cadastro.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Transacao/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.myfinance-web-dotnet.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.myfinance-web-dotnet.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/PlanoContaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/PlanoContaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/Transacao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/Transacao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Services/IPlanoContaServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoConta/IPlanoContaServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoContaServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoConta/PlanoContaServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Cadastro.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Cadastro.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/myfinance-web-dotnet.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/myfinance-web-dotnet.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/TransacaoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/TransacaoController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +38,7 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -63,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -128,15 +116,27 @@
       <option name="presentableId" value="Default" />
       <updated>1730940377130</updated>
       <workItem from="1730940377852" duration="154000" />
-      <workItem from="1733859621263" duration="8680000" />
+      <workItem from="1733859621263" duration="9298000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionando tela de transacao">
+      <option name="closed" value="true" />
+      <created>1733868618212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733868618212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Adicionando tela de transacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando tela de transacao" />
   </component>
 </project>
