@@ -5,12 +5,27 @@
     <projectFile profileName="http">myfinance-web-dotnet/myfinance-web-dotnet.csproj</projectFile>
     <projectFile profileName="https">myfinance-web-dotnet/myfinance-web-dotnet.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6a8a7628-8267-4449-b191-f6834fd46e31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/PlanoConta.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/Transacao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Infrastructure/MyFinanceDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/TransacaoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Models/TransacaoModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/Transacao/ITransacaoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/Transacao/TransacaoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Transacao/Cadastro.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Transacao/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.myfinance-web-dotnet.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.myfinance-web-dotnet.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/PlanoContaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Controllers/PlanoContaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/Transacao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Domain/Transacao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Services/IPlanoContaServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoConta/IPlanoContaServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoContaServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Services/PlanoConta/PlanoContaServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Cadastro.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Cadastro.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/PlanoConta/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myfinance-web-dotnet/myfinance-web-dotnet.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/myfinance-web-dotnet/myfinance-web-dotnet.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,21 +36,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "guhtavares"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;guhtavares&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/guhtavares/myfinance-web-dotnet.git",
-    "accountId": "e295df44-2661-4494-a4f9-3ef9bdc4fdaa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/guhtavares/myfinance-web-dotnet.git&quot;,
+    &quot;accountId&quot;: &quot;e295df44-2661-4494-a4f9-3ef9bdc4fdaa&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2oV2MpV9Meh3F4znI78VowSA6bI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,7 +63,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -105,6 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730940377130</updated>
       <workItem from="1730940377852" duration="154000" />
+      <workItem from="1733859621263" duration="8680000" />
     </task>
     <servers />
   </component>
