@@ -53,6 +53,8 @@ public class TransacaoService : ITransacaoService
     
     public async Task<Domain.Transacao> RetornarRegistro(int id)
     {
-        return null;
+        var item = _myFinanceDbContext.Transacao.Where(x => x.Id == id).First();
+        
+        return item;
     }
 }
